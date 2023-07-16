@@ -1,0 +1,19 @@
+.nav-container{
+    
+
+    .nav-links{
+        background-color: blue;
+
+        .nav-list{
+            display: flex;
+            flex-direction: row;
+            margin: 0 10px;
+            
+
+            .nav-link{
+                margin:0 10px;
+                cursor: pointer;
+            }
+        }
+    }
+}
