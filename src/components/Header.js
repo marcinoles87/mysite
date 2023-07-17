@@ -1,6 +1,9 @@
 import React from 'react'
 
-import profil from './img/minsc.png'
+import './header.scss'
+
+import profil from './img/minsc-nobg.png'
+
 
 function Header() {
   return (
@@ -10,7 +13,9 @@ function Header() {
       </div>
 
       <div className='header-info'>
-        <h1 className='header-info-text'>Info About My Self</h1>
+        <h1 className='header-info-text'>Hello , I'm Marcin Oles</h1>
+        <p className='header-info-text2'> This is my personal website from 2023</p>
+        <button className='header-button'>More ... click </button>
       </div>
     </div>
   )

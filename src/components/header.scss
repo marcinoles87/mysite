@@ -1,0 +1,37 @@
+.header-container{
+    display: flex;
+    flex-direction: row;
+
+    .header-img{
+        position: absolute;
+        left: 50vw;
+        bottom: 0;
+
+        .profil-img{
+
+        }
+    }
+
+    .header-info{
+        position: absolute;
+        top:30vh;
+        left: 10vw;
+        color:white;
+
+        .header-info-text{
+           
+            font-size: 80px;
+
+        }
+
+        .header-info-text2{
+            font-size: 30px;
+        }
+
+        .header-button{
+            margin-top:10px;
+            font-size:20px;
+
+        }
+    }
+}
