@@ -1,3 +1,6 @@
+$primary-color : rgb(87, 209, 215);
+
+
 .nav-container{
     
 
@@ -16,10 +19,17 @@
             
 
             .nav-link{
+                padding: 2px;
                 font-size: 25px;
                 margin:0 10px;
                 cursor: pointer;
+                transition: 1s ease;
             }
         }
     }
+}
+
+.nav-link:hover{
+    letter-spacing: 2px;
+    border-bottom: 1px solid $primary-color ;
 }
