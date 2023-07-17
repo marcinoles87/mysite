@@ -21,9 +21,9 @@ function App() {
 
         </div>
 
-        <div className='about-container'>
+        
               <About></About>
-          </div>
+          
     
     </div>
   );
