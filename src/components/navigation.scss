@@ -2,16 +2,21 @@
     
 
     .nav-links{
-        background-color: blue;
+        color: white;
+        background-color: black;
 
         .nav-list{
+            height: 50px;
             display: flex;
             flex-direction: row;
-            margin: 0 10px;
+            justify-content: flex-end;
+            align-items: center;
+            margin-right: 100px;
+            list-style: none;
             
 
             .nav-link{
-                
+                font-size: 25px;
                 margin:0 10px;
                 cursor: pointer;
             }
