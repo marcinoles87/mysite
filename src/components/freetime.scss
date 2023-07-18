@@ -1,21 +1,50 @@
 .freetime-container{
     position: relative;
-    background-color: blue;
+    text-align: center;
 
     .freetime-list{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-
-
+        justify-content: center;
         
-        .freetime-list-item:nth-child(1){
+
+
+
+        .freetime-list-item{
             width: 20vw;
             height: 25vh;
-            background-image: url('./img/family.jpg');
             background-position: center;
             background-repeat: no-repeat;
             background-size: contain;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            list-style: none;
+            align-items: center;
+        }
+        
+        .freetime-list-item:nth-child(1){
+          
+            background-image: url('./img/family.jpg');
+            
+        }
+
+        .freetime-list-item:nth-child(2){
+           
+            background-image: url('./img/sport.jpg');
+            
+        }
+
+        .freetime-list-item:nth-child(3){
+      
+            background-image: url('./img/movie.png');
+       
+        }
+
+        .freetime-list-item:nth-child(4){
+            
+            background-image: url('./img/food.jpg');
+          
         }
     }
 }
