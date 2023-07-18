@@ -3,6 +3,7 @@ import React from 'react'
 import profilImg from './img/minsc.png'
 
 import './about.scss'
+import Freetime from './Freetime'
 
 function About() {
   return (
@@ -33,6 +34,8 @@ function About() {
           </p>
         </div>
       </div>
+
+      <Freetime></Freetime>
 
     </div>
   )
