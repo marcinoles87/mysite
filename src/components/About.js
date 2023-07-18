@@ -33,8 +33,6 @@ function About() {
           </p>
         </div>
       </div>
-      
-      <h2> In the free time</h2>
 
     </div>
   )
