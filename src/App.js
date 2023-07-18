@@ -4,6 +4,7 @@ import Navigation from './components/Navigation';
 import Header from './components/Header';
 import Main from './components/Main';
 import About from './components/About';
+import Freetime from './components/Freetime';
 
 import './App.scss';
 
@@ -23,6 +24,7 @@ function App() {
 
         
               <About></About>
+              <Freetime></Freetime>
           
     
     </div>

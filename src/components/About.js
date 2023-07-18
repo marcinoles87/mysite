@@ -35,7 +35,7 @@ function About() {
         </div>
       </div>
 
-      <Freetime></Freetime>
+    
 
     </div>
   )

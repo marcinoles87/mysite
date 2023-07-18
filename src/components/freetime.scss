@@ -1,0 +1,21 @@
+.freetime-container{
+    position: relative;
+    background-color: blue;
+
+    .freetime-list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+
+        
+        .freetime-list-item:nth-child(1){
+            width: 20vw;
+            height: 25vh;
+            background-image: url('./img/family.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+}
