@@ -3,17 +3,18 @@ import React from 'react'
 import './freetime.scss'
 
 function Freetime() {
+
+  const handleOnClick = (e) => {
+    const item = document.querySelector('.freetime-list-item')
+    console.log(item)
+  }
   return (
     <div className='freetime-container'>
         <h1>Freetime - rest , piece , energy</h1>
         <ul className='freetime-list'>
             <li className='freetime-list-item'>
-              <p className='freetime-text'>Family</p>
-              <p className='freetime-text-more'>
-                -relaks z moim dziecmi 
-                -wieczory z zona :)
-                -spacery
-              </p>
+              <p className='freetime-text' onClick={handleOnClick}>Family</p>
+              
               </li>
 
 
