@@ -5,7 +5,7 @@ import './freetime.scss'
 function Freetime() {
 
   const handleOnClick = (e) => {
-    const item = document.querySelector('.freetime-text');
+    const item = document.querySelector('.new');
     item.classList.toggle('newClass')
     console.log(item)
   }
@@ -15,7 +15,7 @@ function Freetime() {
         <ul className='freetime-list'>
             <li className='freetime-list-item'>
               <p className='freetime-text' onClick={handleOnClick}>Family</p>
-              
+              <p className='new' onClick={handleOnClick}> Nowy napis to ja</p>
               </li>
 
 
