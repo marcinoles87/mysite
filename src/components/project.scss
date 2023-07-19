@@ -7,6 +7,7 @@ $primary-color : rgb(87, 209, 215);
     position: relative;
     display: flex;
     flex-direction: row;
+    
 
 
     .project-github{
@@ -20,16 +21,27 @@ $primary-color : rgb(87, 209, 215);
     }
 
     .project-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50vw;
+        height: 80vh;
+        background: black;
+        color: white;
         
 
         p{
-            text-align: center;
+            text-align:calc(50%);
             width: 40px;
             height: 40px;
-            border: 1px solid $primary-color;
+            border: 3px solid rgb(20, 99, 195);
             border-radius: 30px;
-            background-color: orangered;
+            background-color: $primary-color;
             
+        }
+
+        ul{
+            list-style:none;
         }
     }
 }
