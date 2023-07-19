@@ -7,8 +7,11 @@ import About from './components/About';
 import Freetime from './components/Freetime';
 
 import './App.scss';
+import Projects from './components/Projects';
 
 function App() {
+
+  
   return (
     
     <div className="App">
@@ -25,6 +28,7 @@ function App() {
         
               <About></About>
               <Freetime></Freetime>
+              <Projects></Projects>
           
     
     </div>
