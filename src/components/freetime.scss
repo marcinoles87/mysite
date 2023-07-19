@@ -1,19 +1,27 @@
+$primary-color : rgb(87, 209, 215);
+
+
 .freetime-container{
     position: relative;
     text-align: center;
-    height: 500px;
+   
+
+    h1{
+        margin-bottom: 20px;
+        font-size: 50px;
+        border-bottom: 3px solid $primary-color;
+    }
 
     .freetime-list{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content:center;
         align-items: center;
         
 
-
-
         .freetime-list-item{
+            
             position: relative;
             width: 34vw;
             height: 30vh;
@@ -25,11 +33,13 @@
             font-size: 20px;
             list-style: none;
             align-items: center;
+            transition: 1s ease;
+           
 
             .freetime-text{
                 
                 width: 40%;
-                font-size: 50px;
+                font-size: 5vw;
                 font-weight: 900;
                 background-color: rgba(255, 255, 255, 0.74);
                 color:black;
@@ -44,19 +54,23 @@
 
             .new{
                 display: none;
+                transition: 1s ease;
             }
 
+            
             .newClass{
                 display: inline-block;
                 width: 100%;
-                background-color: red;
+                background-color: rgb(11, 11, 11);
+                color:aquamarine;
+                transition: all 1s ease;
             }
-
-
-
             
+        }
 
-            
+        .freetime-list-item:hover{
+            transform: scale(1.05);
+            overflow: hidden;
         }
         
         .freetime-list-item:nth-child(1){

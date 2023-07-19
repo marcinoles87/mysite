@@ -13,7 +13,7 @@ function About() {
         <img className='profil-img' src={profilImg} alt='my-profil'></img>
         <p>Czesc , jestem Marcin , poczatkujacy front-end developer . 
           Swoja historie z programowaniem zaczełem już na studiach w 2012 roku .
-          W tamtym momencie liznalem troche javy , blendera 3d , javascriptu i frontendu ktory osobiście mnie użekłk , lecz 
+          W tamtym momencie liznalem troche javy , blendera 3d , javascriptu i frontendu ktory osobiście mnie użekł , lecz 
           niestety moje życiowe plany sie zmieniły . W 2013 roku na świat przyszedł moj syn Marcel .
           Moje priorytety musiałem odłożyć na bok ... Od tamtego czasu aż do 2018 roku niewiele sie zmieniło,
           moim głównym celem była rodzina lecz w 2019 roku na świat przyszedł moj drugi syn Jakub , a w 2020

@@ -11,7 +11,7 @@ function Freetime() {
   }
   return (
     <div className='freetime-container'>
-        <h1>Freetime - rest , piece , energy</h1>
+        <h1>My hobby in free time - family , sport , movie , foods</h1>
         <ul className='freetime-list'>
             <li className='freetime-list-item'>
               <p className='freetime-text' onClick={handleOnClick}>Family</p>
