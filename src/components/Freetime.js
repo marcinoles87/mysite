@@ -5,8 +5,9 @@ import './freetime.scss'
 function Freetime() {
 
   const handleOnClick = (e) => {
-    const item = document.querySelector('.freetime-list-item')
-    item.classList.add('.newClass')
+    const item = document.querySelector('.freetime-text');
+    item.classList.toggle('newClass')
+    console.log(item)
   }
   return (
     <div className='freetime-container'>
