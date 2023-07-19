@@ -32,7 +32,9 @@ function About() {
 
 
           </p>
+
         </div>
+        
       </div>
 
     
