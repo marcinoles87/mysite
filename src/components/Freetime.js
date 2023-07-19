@@ -6,7 +6,7 @@ function Freetime() {
 
   const handleOnClick = (e) => {
     const item = document.querySelector('.freetime-list-item')
-    console.log(item)
+    item.classList.add('.newClass')
   }
   return (
     <div className='freetime-container'>
