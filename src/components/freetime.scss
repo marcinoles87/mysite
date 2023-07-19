@@ -6,18 +6,20 @@
     .freetime-list{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
         
 
 
 
         .freetime-list-item{
             position: relative;
-            width: 20vw;
-            height: 25vh;
+            width: 34vw;
+            height: 30vh;
             background-position: center;
             background-repeat: no-repeat;
-            background-size: contain;
+            background-size: cover;
             text-align: center;
             color: white;
             font-size: 20px;
@@ -36,6 +38,11 @@
                 left: 50%;
                 transform: translate(-50%,-50%);
                 mix-blend-mode: screen;
+                transition: 1s ease;
+                
+            }
+
+            .freetime-text:hover{
                 
             }
         }
