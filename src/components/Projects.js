@@ -27,7 +27,7 @@ function Projects() {
             <h3></h3>
         </div>
 
-        <div>Git hub work </div>
+        <div>Github work </div>
 
 
         
