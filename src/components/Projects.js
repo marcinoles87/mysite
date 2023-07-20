@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './project.scss'
+import githubwork from './img/githubwork.png'
 
 
 function Projects() {
@@ -28,7 +29,7 @@ function Projects() {
         </div>
 
         <div>Github work </div>
-
+        <img src={githubwork} alt='github-work'></img>
 
         
       </div>
