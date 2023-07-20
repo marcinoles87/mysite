@@ -28,8 +28,9 @@ function Projects() {
             <h3></h3>
         </div>
 
-        <div>Github work </div>
-        <img src={githubwork} alt='github-work'></img>
+        <div className='project-githubwork'>
+          <h1>My github workday</h1> </div>
+        <img className='project-githubwork' src={githubwork} alt='github-work'></img>
 
         
       </div>
