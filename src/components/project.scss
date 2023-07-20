@@ -43,11 +43,15 @@ $primary-color : rgb(87, 209, 215);
 
             h3{
                 margin: 0 5px;
-            }
+            } 
+            
+           
         }
 
-        .project-skill-person:hover{
-            border-bottom: $primary-color;
-        }
+       
     }
+}
+
+.project-skill-person:hover{
+    border-bottom:1px solid  $primary-color;
 }
