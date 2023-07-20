@@ -12,7 +12,7 @@ function Projects() {
 
       <div className='project-item'>
         <div className='project-skill-person'> 
-            <h1>Strong skills</h1>
+            <h1>Person skills</h1>
             <h3>Team Player</h3>
             <h3>Comunications</h3>
             <h3>Calm</h3>
