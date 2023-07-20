@@ -29,6 +29,16 @@ $primary-color : rgb(87, 209, 215);
             height: 40px;
             margin-right: 40px;
             border-radius: 20px;
+            filter: grayscale(1);
+            // filter: brightness(1);
+            transition: 1s ease;
+            
+        }
+
+        img:hover{
+            transform: scale(1.1);
+            
+            filter: brightness(1.4);
         }
 
         .header-info-text{
