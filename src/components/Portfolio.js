@@ -9,13 +9,13 @@ function Portfolio() {
 
         <div className='portfolio-projects'>
             
-            <div className='project-description'>
+            <div className='portfolio-description'>
                 <h1>Name</h1>
                 <p>Description</p>
             </div>
            
-            <div className='projects-link'>
-                <a href='#'></a>
+            <div className='portfolio-link'>
+                <a href='#' ></a>
             </div>
         </div>
     </div>
