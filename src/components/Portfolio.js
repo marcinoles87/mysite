@@ -15,7 +15,7 @@ function Portfolio() {
             </div>
            
             <div className='portfolio-link'>
-                <a href='#' ></a>
+                <a className='portfolio-item1' href='#' ></a>
             </div>
         </div>
 
@@ -39,7 +39,7 @@ function Portfolio() {
             </div>
            
             <div className='portfolio-link'>
-                <a href='#' ></a>
+                <img className='portfolio-item1' ></img>
             </div>
         </div>
 
