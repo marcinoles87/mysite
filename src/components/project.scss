@@ -49,10 +49,21 @@ $primary-color : rgb(87, 209, 215);
         }
 
         .project-githubwork{
-            
+            display: flex;
+            flex-direction: column;
             width: 80%;
             margin: 20px;
             text-align: center;
+
+            i{
+                margin:20px 30px;
+            }
+
+            a{
+                text-decoration: none;
+                color:white;
+            }
+
         }
 
        
