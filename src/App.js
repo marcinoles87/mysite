@@ -8,6 +8,7 @@ import Freetime from './components/Freetime';
 
 import './App.scss';
 import Projects from './components/Projects';
+import Portfolio from './components/Portfolio';
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
               <About></About>
               <Projects></Projects>
               {/* <Freetime></Freetime> */}
+              <Portfolio></Portfolio>
               
           
     
