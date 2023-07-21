@@ -3,10 +3,15 @@
     height: 100vh;
     
    
+    .portfolio-name{
+        text-align: center;
+    }
     
     .portfolio-projects{
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        margin-bottom: 20px;
         
 
         .portfolio-description{
