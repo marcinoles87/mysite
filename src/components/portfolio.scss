@@ -5,8 +5,14 @@
     background: linear-gradient(90deg, rgba(0,0,0,1) 31%, rgba(87,209,215,1) 100%);
     
    
+
     .portfolio-name{
+        margin-bottom: 40px;
+        padding-top: 40px;
+        font-size: 60px;
         text-align: center;
+        color:white;
+        
     }
     
     .portfolio-projects{
@@ -52,5 +58,9 @@
     }
 
 
+    h2{
+        color:white;
+        text-align: center;
+    }
 
 }

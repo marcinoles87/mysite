@@ -10,7 +10,7 @@ import hangman from './img/hangman.png';
 function Portfolio() {
   return (
     <div className='portfolio-container'>
-        <h1 className='portfolio-name'> Portfolio</h1>
+        <h1 className='portfolio-name'>Some of my projects</h1>
 
         <div className='portfolio-projects'>
             
@@ -70,6 +70,8 @@ function Portfolio() {
             <img src={hangman} alt='hangman-game'></img>
             </div>
         </div>
+
+        <h2> If you Like this few project please visit my profil on Github and see more... Thanks</h2>
     </div>
   )
 }
