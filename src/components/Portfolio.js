@@ -2,6 +2,8 @@ import React from 'react'
 
 import './portfolio.scss';
 
+import vip from './img/vip.png';
+
 function Portfolio() {
   return (
     <div className='portfolio-container'>
@@ -15,7 +17,7 @@ function Portfolio() {
             </div>
            
             <div className='portfolio-link'>
-                <a className='portfolio-item1' href='#' ></a>
+                <img src={vip} alt='viptour-site'></img>
             </div>
         </div>
 

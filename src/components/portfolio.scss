@@ -26,15 +26,25 @@
              height: 40vh;
             // background-color: gray;
 
+            
+
             .portfolio-item1{
-                width: 45vw;
-                height: 45vh;
+                width: 40vw;
+                height: 40vh;
                 background-image: url('./img/vip.png');
                 background-position: center;
                 background-repeat: no-repeat;
-                background-size: cover;
-                object-fit: contain;
-                transform: scale(70%);
+                background-size: contain;
+               
+            }
+
+            img{
+                width: 40vw;
+                height: 40vh;
+                background-image: url('./img/vip.png');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
             }
         }
     }
