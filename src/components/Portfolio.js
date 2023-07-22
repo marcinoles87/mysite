@@ -3,6 +3,9 @@ import React from 'react'
 import './portfolio.scss';
 
 import vip from './img/vip.png';
+import vip2 from './img/vip2.png';
+import weather from './img/weather.png';
+import hangman from './img/hangman.png';
 
 function Portfolio() {
   return (
@@ -29,7 +32,7 @@ function Portfolio() {
             </div>
            
             <div className='portfolio-link'>
-                <a href='#' ></a>
+            <img src={vip2} alt='viptour-site'></img>
             </div>
         </div>
 
@@ -41,7 +44,7 @@ function Portfolio() {
             </div>
            
             <div className='portfolio-link'>
-                <img className='portfolio-item1' ></img>
+            <img src={weather} alt='weather app'></img>
             </div>
         </div>
 
@@ -53,7 +56,7 @@ function Portfolio() {
             </div>
            
             <div className='portfolio-link'>
-                <a href='#' ></a>
+            <img src={hangman} alt='hangman-game'></img>
             </div>
         </div>
     </div>
