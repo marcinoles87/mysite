@@ -21,11 +21,11 @@ function Projects() {
         </div>
 
         <div className='project-skill-person'> 
-            <h1>Tech skill</h1>
+            <h1>Tech skills</h1>
             <h3>HTML</h3>
             <h3>CSS / SaSS</h3>
             <h3>JS / React</h3>
-            <h3></h3>
+            
         </div>
 
         <div className='project-githubwork'>
