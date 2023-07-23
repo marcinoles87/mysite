@@ -3,6 +3,12 @@ $primary-color : rgb(87, 209, 215);
 .header-container{
     display: flex;
     flex-direction: row;
+
+    i{
+        position: absolute;
+        bottom: 30px;
+        right: 100px;
+    }
     
 
     .header-img{

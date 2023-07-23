@@ -25,7 +25,13 @@ function Header() {
         <p className='header-info-text2'> This is my personal website from 2023</p>
         <button className='header-button'>More Info </button>
       </div>
+
+
+      <i class="fa-solid fa-circle-down fa-2xl"></i>
+
     </div>
+
+    
   )
 }
 
