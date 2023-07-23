@@ -8,10 +8,12 @@ function Navigation() {
       <div className='nav-links'>
 
         <ul className='nav-list'>
-          <li className='nav-link'>Home</li>
-          <li className='nav-link'>About Me</li>
-          <li className='nav-link'>Projects</li>
-          <li className='nav-link'>Contact</li>
+          <li className='nav-link'><a href='#home'>Home</a></li>
+          <li className='nav-link'><a href='#about'>About me</a></li>
+          <li className='nav-link'><a href='#home'>Skills</a></li>
+          <li className='nav-link'><a href='#home'>Project</a></li>
+          
+          
         </ul>
 
       </div>

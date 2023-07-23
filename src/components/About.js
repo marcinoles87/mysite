@@ -7,7 +7,7 @@ import Freetime from './Freetime'
 
 function About() {
   return (
-    <div className='about-container'>
+    <div className='about-container' id='about'>
       <div className='about-text'>
         <h1>This is me ...</h1>
         <img className='profil-img' src={profilImg} alt='my-profil'></img>
