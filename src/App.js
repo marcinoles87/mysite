@@ -17,7 +17,7 @@ function App() {
     
     <div className="App">
 
-        <div className='app-container'>
+        <div className='app-container' id='home'>
 
           
             <Navigation></Navigation>
