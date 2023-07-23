@@ -10,8 +10,8 @@ function Navigation() {
         <ul className='nav-list'>
           <li className='nav-link'><a href='#home'>Home</a></li>
           <li className='nav-link'><a href='#about'>About me</a></li>
-          <li className='nav-link'><a href='#home'>Skills</a></li>
-          <li className='nav-link'><a href='#home'>Project</a></li>
+          <li className='nav-link'><a href='#skills'>Skills</a></li>
+          <li className='nav-link'><a href='#projects'>Project</a></li>
           
           
         </ul>

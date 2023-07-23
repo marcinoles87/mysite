@@ -10,7 +10,7 @@ import hangman from './img/hangman.png';
 function Portfolio() {
   return (
     <div className='portfolio-container'>
-        <h1 className='portfolio-name'>Some of my projects</h1>
+        <h1 className='portfolio-name' id='projects'>Some of my projects</h1>
 
         <div className='portfolio-projects'>
             

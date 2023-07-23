@@ -7,7 +7,7 @@ import githubwork from './img/githubwork.png'
 function Projects() {
   return (
     <div className='project-container'>
-      <div className='project-github'>
+      <div className='project-github' id='skills'>
        
       </div>
 

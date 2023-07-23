@@ -5,6 +5,7 @@ import './header.scss'
 import profil from './img/minsc-nobg.png'
 import logoGh from './img/github.png'
 import logoLn from './img/linkedin.png'
+import logoFb from './img/facebook2.png'
 
 
 function Header() {
@@ -17,7 +18,8 @@ function Header() {
       <div className='header-info'>
         <img src={logoGh} alt='github-logo'></img>
         <img src={logoLn} alt='linkedin-logo'></img>
-        <i class="fa-brands fa-facebook fa-lg"></i>
+        <img src={logoFb} alt='linkedin-logo'></img>
+        
 
         <h1 className='header-info-text'>Hello , I'm Marcin Oles</h1>
         <p className='header-info-text2'> This is my personal website from 2023</p>
