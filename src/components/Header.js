@@ -27,7 +27,7 @@ function Header() {
       </div>
 
 
-      <i class="fa-solid fa-circle-down fa-2xl"></i>
+      
 
     </div>
 
