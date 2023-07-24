@@ -9,6 +9,7 @@ import Freetime from './components/Freetime';
 import './App.scss';
 import Projects from './components/Projects';
 import Portfolio from './components/Portfolio';
+import Card from './components/Card';
 
 function App() {
 
@@ -28,7 +29,14 @@ function App() {
 
         
               <About></About>
+              <div className='cards-container'>
+                <Card></Card>
+              <Card></Card>
+              <Card></Card>
+              </div>
+              
               <Projects></Projects>
+
               {/* <Freetime></Freetime> */}
               <Portfolio></Portfolio>
               

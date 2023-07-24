@@ -4,6 +4,7 @@ import profilImg from './img/minsc.png'
 
 import './about.scss'
 import Freetime from './Freetime'
+import Card from './Card'
 
 function About() {
   return (
@@ -38,8 +39,9 @@ function About() {
       </div>
 
     
-
+     
     </div>
+    
   )
 }
 
