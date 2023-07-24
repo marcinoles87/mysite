@@ -6,7 +6,7 @@ $primary-color : rgb(87, 209, 215);
     width: 100vw;
     height: 100vh;
     background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,0.9136904761904762) 7%, rgba(87,209,215,1) 100%);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 26%, rgba(87,209,215,1) 100%);
 
   
     
@@ -39,6 +39,7 @@ $primary-color : rgb(87, 209, 215);
         img{
             width: 40px;
             height: 40px;
+            margin-top: 20px;
             margin-right: 20px;
             border-radius: 20px;
             filter: grayscale(1);
