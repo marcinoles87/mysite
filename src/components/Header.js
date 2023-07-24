@@ -21,8 +21,9 @@ function Header() {
         <img src={logoFb} alt='linkedin-logo'></img>
         
 
-        <h1 className='header-info-text'>Hello , I'm Marcin Oles</h1>
-        <p className='header-info-text2'> This is my personal website from 2023</p>
+        <h1 className='header-info-text'>READY TO WORK</h1>
+        <h2>Hi there , Im Marcin !</h2>
+        <p className='header-info-text2'> FUTURE FRONTEND - DEVELOPER</p>
         <button className='header-button'>More Info </button>
       </div>
 

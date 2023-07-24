@@ -4,10 +4,7 @@ $primary-color : rgb(87, 209, 215);
     display: flex;
     flex-direction: row;
 
-    .new{
-        position: absolute;
   
-    }
     
 
     .header-img{
@@ -26,11 +23,16 @@ $primary-color : rgb(87, 209, 215);
         left: 10vw;
         padding: 30px;
         color:white;
-        border: 1px solid $primary-color;
+        text-align: center;
+        // border: 1px solid $primary-color;
         border-radius: 20px;
 
+        h2{
+            font-size: 40px;
+        }
+
         
-       
+      
 
         img{
             width: 40px;
@@ -50,13 +52,13 @@ $primary-color : rgb(87, 209, 215);
 
         .header-info-text{
            
-            font-size: 55px;
+            font-size: 70px;
 
         }
 
         .header-info-text2{
             color: $primary-color;
-            font-size: 30px;
+            font-size: 20px;
         }
 
         .header-button{
