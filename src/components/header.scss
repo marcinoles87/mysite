@@ -24,11 +24,12 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 56%, rgba(87,209,215,1) 100%);
         left: 10vw;
         padding: 30px;
         color:white;
-        text-align: center;
+        // text-align: center;
         // border: 1px solid $primary-color;
         border-radius: 20px;
 
         h2{
+            font-family: 'Anton', cursive;
             font-size: 40px;
         }
 
@@ -54,7 +55,10 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 56%, rgba(87,209,215,1) 100%);
 
         .header-info-text{
            
-            font-size: 70px;
+            font-size: 100px;
+            font-family: 'Anton', cursive;
+            letter-spacing: 4px;
+            
 
         }
 
