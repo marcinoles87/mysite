@@ -3,6 +3,10 @@ $primary-color : rgb(87, 209, 215);
 .header-container{
     display: flex;
     flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.9136904761904762) 7%, rgba(87,209,215,1) 100%);
 
   
     
@@ -10,11 +14,9 @@ $primary-color : rgb(87, 209, 215);
     .header-img{
         position: absolute;
         left: 50vw;
-        bottom: 0;
+        bottom: -25px;
 
-        .profil-img{
-
-        }
+       
     }
 
     .header-info{

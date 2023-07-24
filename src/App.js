@@ -22,7 +22,7 @@ function App() {
           
             <Navigation></Navigation>
             <Header></Header>
-            <Main></Main>
+          
 
         </div>
 
