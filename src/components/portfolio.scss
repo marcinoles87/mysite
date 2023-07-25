@@ -27,6 +27,22 @@
             width: 40vw;
             height: 40vh;
             color: white;
+
+            ul{
+                font-size: 30px;
+                border: 2px solid blue;
+                margin: 10px;
+
+                li{
+                    display: none;
+                }
+            }
+
+            ul:hover{
+                li{
+                    display: block;
+                }
+            }
         }
 
         .portfolio-link{

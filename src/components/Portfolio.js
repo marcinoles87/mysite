@@ -31,11 +31,12 @@ function Portfolio() {
         <div className='portfolio-projects'>
             
             <div className='portfolio-description'>
-                <ul>Vip Tour Cracow 2</ul>
+                <ul>Vip Tour Cracow 2
                     <li>-Second site for my friend</li>
                     <li>-Better build , use React</li>
                     <li>-Some media/video use</li>
                     <li>-React router use</li>
+                </ul>
             </div>
            
             <div className='portfolio-link'>
