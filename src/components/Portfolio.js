@@ -8,6 +8,8 @@ import weather from './img/weather.png';
 import hangman from './img/hangman.png';
 
 function Portfolio() {
+
+    
   return (
     <div className='portfolio-container'>
         <h1 className='portfolio-name' id='projects'>Some of my projects</h1>
@@ -29,11 +31,11 @@ function Portfolio() {
         <div className='portfolio-projects'>
             
             <div className='portfolio-description'>
-                <h1>Vip Tour Cracow 2</h1>
-                <p>-Second site for my friend</p>
-                <p>-Better build , use React</p>
-                <p>-Some media/video use</p>
-                <p>-React router use</p>
+                <ul>Vip Tour Cracow 2</ul>
+                    <li>-Second site for my friend</li>
+                    <li>-Better build , use React</li>
+                    <li>-Some media/video use</li>
+                    <li>-React router use</li>
             </div>
            
             <div className='portfolio-link'>
