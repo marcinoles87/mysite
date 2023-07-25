@@ -6,6 +6,10 @@ import Main from './components/Main';
 import About from './components/About';
 import Freetime from './components/Freetime';
 
+import img1 from './components/img/family.jpg'
+import img2 from './components/img/sport.jpg'
+import img3 from './components/img/movie.png'
+
 import './App.scss';
 import Projects from './components/Projects';
 import Portfolio from './components/Portfolio';
@@ -30,9 +34,11 @@ function App() {
         
               <About></About>
               <div className='cards-container'>
-              <Card></Card>
-              <Card></Card>
-              <Card></Card>
+              <Card method={'1. Learn'} text={'codziennie staram sie uczyc czegos nowego'} img={img1}></Card>
+              <Card method={'2. Teach'} text={'kodowac codziennie i powtarzac'} img={img2}></Card>
+              <Card method={'3. Work'} text={'tworzyc projekty w oparciu o poznane techniki '} img={img3}></Card>
+
+              
               </div>
               
               <Projects></Projects>
