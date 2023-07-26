@@ -23,14 +23,14 @@ function About() {
 
       
 
-      <div className='about-info'>
-        <div className='info-item'>
-          <h1>Age</h1>
-          <h2>35</h2>
-        </div>
-      </div>
+            <div className='about-info'>
+              <div className='info-item'>
+                <h1>Age</h1>
+                <h2>35</h2>
+              </div>
+            </div>
 
-    </div>
+      </div>
      
     </div>
     
