@@ -8,9 +8,10 @@ import Card from './Card'
 
 function About() {
   return (
-    <div className='about-container' id='about'>
+    <div className='about-container' id='about'> 
+    <h1><span>About</span> me</h1>
       <div className='about-text'>
-        <h1>This is me ...</h1>
+       
         <img className='profil-img' src={profilImg} alt='my-profil'></img>
         <p>Czesc , jestem Marcin , poczatkujacy front-end developer . 
           Swoja historie z programowaniem zaczełem już na studiach w 2012 roku .
@@ -20,7 +21,7 @@ function About() {
           moim głównym celem była rodzina lecz w 2019 roku na świat przyszedł moj drugi syn Jakub , a w 2020
           moja wyczekana córka Zuzanna . </p>
 
-        <div className='about-text2'>
+        {/* <div className='about-text2'> */}
             <h2> Front-end</h2>
 
             <p>I tak też w 2021 roku postanowilem powrócić do nauki programowania , mój wybór padł
@@ -34,7 +35,7 @@ function About() {
 
           </p>
 
-        </div>
+        {/* </div> */}
         
       </div>
 
