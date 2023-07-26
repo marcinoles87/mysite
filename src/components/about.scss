@@ -14,12 +14,13 @@ $primary-color : rgb(87, 209, 215);
     }
 
     .about-text{
-        width: 70vw;
+        width: 50vw;
+        margin-top:100px;
         display: flex;
         flex-direction: row;
-        align-items: center;
         justify-content: center;
         line-height:30px;
+        gap:20px;
         
 
         .profil-img{
@@ -31,14 +32,30 @@ $primary-color : rgb(87, 209, 215);
             border-radius: 100%;
         }
 
-        .about-text2{
-            margin-top: 30px;
-       
+        .about-info{
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            width: 200px;
 
-            h2{
-                margin-top: 30px;
+            .info-item{
+                display: flex;
+                flex-direction: row;
+
+                h1{
+                    background-color: $primary-color;
+                    color: white;
+                    padding: 10px;
+
+                }
+
+                h2{
+                    color: black;
+                    font-size: larger;
+                }
+
+
             }
-           
         }
     }
 }
