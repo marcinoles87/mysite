@@ -29,22 +29,19 @@
             color: white;
 
             ul{
+                opacity: 0;
                 font-size: 30px;
                 border: 2px solid blue;
                 margin: 10px;
                 transition: 1s ease;
 
                 li{
+                    opacity: 0;
                     display: none;
                     transition: 1s ease;
                 }
             }
 
-            ul:hover{
-                li{
-                    display: block;
-                }
-            }
         }
 
         .portfolio-link{
@@ -81,4 +78,9 @@
         text-align: center;
     }
 
+}
+
+.show{
+    background-color: red;
+    opacity: 1;
 }

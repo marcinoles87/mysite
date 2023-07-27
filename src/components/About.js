@@ -8,14 +8,20 @@ import Card from './Card'
 
 function About() {
 
+   
+
   const handleOnScroll = (e) => {
-    const aboutSec = document.querySelector('.about-container') 
-    console.log(aboutSec)
-    aboutSec.classList.toggle('test')
+    const aboutSec = document.querySelector('.about-container')
+    console.log(window) 
+    console.log(e.pageY)
+    if(window.innerHeight > 700){
+    aboutSec.classList.add('test')
+  }
+
     
   }
   return (
-    <div className='about-container' id='about' onClick={handleOnScroll}> 
+    <div className='about-container' id='about' onMouseEnter={handleOnScroll}> 
     <h1><span>About</span> me</h1>
       <div className='about-text'>
        

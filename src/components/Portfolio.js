@@ -9,6 +9,13 @@ import hangman from './img/hangman.png';
 
 function Portfolio() {
 
+    const handleMouse = (e) => {
+        const element = document.querySelector('.list')
+        e.currentTarget.classList.add('show')
+        element.classList.add('show')
+        console.log(e)
+    }
+
     
   return (
     <div className='portfolio-container'>
@@ -30,8 +37,9 @@ function Portfolio() {
 
         <div className='portfolio-projects'>
             
-            <div className='portfolio-description'>
-                <ul>Vip Tour Cracow 2
+            <div className='portfolio-description' >
+                <button onClick={handleMouse}>Vip tour cracow</button>
+                <ul className='list'>Vip Tour Cracow 2
                     <li>-Second site for my friend</li>
                     <li>-Better build , use React</li>
                     <li>-Some media/video use</li>

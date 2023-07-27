@@ -6,6 +6,7 @@ $primary-color : rgb(87, 209, 215);
 }
 
 .about-container{
+
     position: relative;
     display: flex;
     flex-direction: row;
@@ -15,6 +16,7 @@ $primary-color : rgb(87, 209, 215);
     color:white;
     opacity: 0;
     transition: 1s ease;
+    overflow: hidden;
 
     span{
         color:$primary-color;
