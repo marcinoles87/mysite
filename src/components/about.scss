@@ -1,5 +1,6 @@
 $primary-color : rgb(87, 209, 215);
 
+
 .text{
     background-color: blue;
 }
@@ -12,6 +13,8 @@ $primary-color : rgb(87, 209, 215);
     gap:30px;
     background-color: black;
     color:white;
+    opacity: 0;
+    transition: 1s ease;
 
     span{
         color:$primary-color;
@@ -75,4 +78,8 @@ $primary-color : rgb(87, 209, 215);
             }
         }
     }
+}
+
+.test{
+    opacity: 1;
 }
