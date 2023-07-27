@@ -8,6 +8,7 @@ $primary-color : rgb(87, 209, 215);
     position: relative;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap:30px;
     background-color: black;
     color:white;
@@ -49,7 +50,9 @@ $primary-color : rgb(87, 209, 215);
                 display: flex;
                 flex-direction: row;
                 margin: 10px;
-                background-color: white;
+                // background-color: white;
+                border: 1px solid white;
+               
 
 
                 h1{
@@ -60,8 +63,12 @@ $primary-color : rgb(87, 209, 215);
                 }
 
                 h2{
-                    color: black;
-                    font-size: larger;
+                    color: white;
+                    font-size: larger; 
+                    flex-grow: 2;
+                    text-align: end;
+                    padding: 10px;
+                    
                 }
 
 
