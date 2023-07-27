@@ -9,7 +9,11 @@ import Card from './Card'
 function About() {
 
   const handleOnScroll = () => {
-    
+    const aboutSec = document.querySelector('about-container') 
+    console.log(window.screenTop)
+    if(document.documentElement.scrollTop > 100){
+      aboutSec.classList.toggle = 'test'
+    }
   }
   return (
     <div className='about-container' id='about' onScroll={handleOnScroll}> 
@@ -32,7 +36,24 @@ function About() {
                 <h1>Age</h1>
                 <h2>35</h2>
               </div>
+
+              <div className='info-item'>
+                <h1>Name</h1>
+                <h2>Marcin</h2>
+              </div>
+
+              <div className='info-item'>
+                <h1>Country</h1>
+                <h2>Poland</h2>
+              </div> 
+              
+              <div className='info-item'>
+                <h1>Experience</h1>
+                <h2>1.5 year</h2>
+              </div>
             </div>
+
+           
 
       </div>
      

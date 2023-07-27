@@ -1,5 +1,8 @@
 $primary-color : rgb(87, 209, 215);
 
+.text{
+    background-color: blue;
+}
 
 .about-container{
     position: relative;
@@ -39,12 +42,15 @@ $primary-color : rgb(87, 209, 215);
         .about-info{
             display: flex;
             flex-direction: column;
-            background-color: white;
+            
             
 
             .info-item{
                 display: flex;
                 flex-direction: row;
+                margin: 10px;
+                background-color: white;
+
 
                 h1{
                     background-color: $primary-color;
