@@ -7,8 +7,12 @@ import Freetime from './Freetime'
 import Card from './Card'
 
 function About() {
+
+  const handleOnScroll = () => {
+    
+  }
   return (
-    <div className='about-container' id='about'> 
+    <div className='about-container' id='about' onScroll={handleOnScroll}> 
     <h1><span>About</span> me</h1>
       <div className='about-text'>
        
