@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import './portfolio.scss';
 
@@ -8,27 +8,30 @@ import weather from './img/weather.png';
 import hangman from './img/hangman.png';
 
 function Portfolio() {
+  
+    const [show , setShow] = useState(false)
 
-    const handleMouse = (e) => {
-        const element = document.querySelector('.list')
-        e.currentTarget.classList.add('show')
-        element.classList.add('show')
-        console.log(e)
+
+    const showSection = () => {
+        const element = document.querySelector('.portfolio-container') ;
+        console.log(element)
+        element.classList.add('.show')
     }
-
     
   return (
-    <div className='portfolio-container'>
+    <div className='portfolio-container' onMouseEnter={showSection}>
         <h1 className='portfolio-name' id='projects'>Some of my projects</h1>
 
-        <div className='portfolio-projects'>
+        <div className='portfolio-projects' >
             
+           
             <div className='portfolio-description'>
                 <h1>Vip Tour Cracow</h1>
                 <p>-First "usefull" site for my friend</p>
                 <p>-Use bootstrap templets , HTML , CSS</p>
                 <p>-Nice / Smooth / Simple</p>
             </div>
+
            
             <div className='portfolio-link'>
                 <img src={vip} alt='viptour-site'></img>
@@ -37,9 +40,8 @@ function Portfolio() {
 
         <div className='portfolio-projects'>
             
-            <div className='portfolio-description' >
-                <button onClick={handleMouse}>Vip tour cracow</button>
-                <ul className='list'>Vip Tour Cracow 2
+            <div className='portfolio-description'>
+                <ul>Vip Tour Cracow 2
                     <li>-Second site for my friend</li>
                     <li>-Better build , use React</li>
                     <li>-Some media/video use</li>
