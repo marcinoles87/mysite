@@ -7,33 +7,37 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
     
    
 
     .portfolio-name{
+        width: 100%;
         margin-bottom: 40px;
         padding-top: 40px;
         font-size: 60px;
         text-align: center;
         color:white;
+      font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #42aae2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+
         
     }
     
     .portfolio-projects{
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-bottom: 20px;
+        flex-direction: column;
         text-align: center;
         
         
 
         .portfolio-description{
             width: 40vw;
-            height: 40vh;
             color: white;
-            
-
+            margin: 20px;
 
         }
 
@@ -55,12 +59,13 @@
             }
 
             img{
-                width: 40vw;
+                width: 35vw;
                 height: 40vh;
                 background-image: url('./img/vip.png');
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: contain;
+                border-radius: 20px;
             }
         }
     }
