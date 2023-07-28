@@ -14,18 +14,21 @@ function Portfolio() {
 
     const showSection = () => {
         const element = document.querySelector('.portfolio-container') ;
+        const element2 = document.querySelector('.portfolio-description') ;
         console.log(element)
-        element.classList.add('.show')
+        element.classList.add('show')
+        element2.classList.add('show')
+
     }
     
   return (
-    <div className='portfolio-container' onMouseEnter={showSection}>
+    <div className='portfolio-container'onMouseEnter={showSection}>
         <h1 className='portfolio-name' id='projects'>Some of my projects</h1>
 
-        <div className='portfolio-projects' >
+        <div className='portfolio-projects' onMouseEnter={showSection}>
             
            
-            <div className='portfolio-description'>
+            <div className='portfolio-description' >
                 <h1>Vip Tour Cracow</h1>
                 <p>-First "usefull" site for my friend</p>
                 <p>-Use bootstrap templets , HTML , CSS</p>
@@ -38,7 +41,7 @@ function Portfolio() {
             </div>
         </div>
 
-        <div className='portfolio-projects'>
+        <div className='portfolio-projects' onMouseEnter={showSection}>
             
             <div className='portfolio-description'>
                 <ul>Vip Tour Cracow 2
@@ -54,7 +57,7 @@ function Portfolio() {
             </div>
         </div>
 
-        <div className='portfolio-projects'>
+        <div className='portfolio-projects' onMouseEnter={showSection}>
             
             <div className='portfolio-description'>
                 <h1>Weather App</h1>
@@ -69,7 +72,7 @@ function Portfolio() {
             </div>
         </div>
 
-        <div className='portfolio-projects'>
+        <div className='portfolio-projects' onMouseEnter={showSection}>
             
             <div className='portfolio-description'>
                 <h1>Hangman game</h1>

@@ -2,6 +2,7 @@
     width: 100vw;
     background: rgb(63,228,251);
     background: rgb(0,0,0);
+    opacity: 0;
     // background: linear-gradient(90deg, rgba(0,0,0,1) 31%, rgba(87,209,215,1) 100%);
     
    
@@ -22,25 +23,14 @@
         margin-bottom: 20px;
         text-align: center;
         
+        
 
         .portfolio-description{
             width: 40vw;
             height: 40vh;
             color: white;
+            
 
-            ul{
-                opacity: 0;
-                font-size: 30px;
-                border: 2px solid blue;
-                margin: 10px;
-                transition: 1s ease;
-
-                li{
-                    opacity: 0;
-                    display: none;
-                    transition: 1s ease;
-                }
-            }
 
         }
 
@@ -81,6 +71,21 @@
 }
 
 .show{
-    background-color: red;
+    animation: 1s ease  slideLeft;
     opacity: 1;
+}
+
+@keyframes slideLeft {
+
+    0%{
+        transform: translateX(-1000px);
+
+
+    }
+
+    100%{
+        transform: translateX(0);
+
+    }
+    
 }
