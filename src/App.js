@@ -13,6 +13,7 @@ import './App.scss';
 import Projects from './components/Projects';
 import Portfolio from './components/Portfolio';
 import Card from './components/Card';
+import Contact from './components/Contact';
 
 function App() {
 
@@ -44,6 +45,7 @@ function App() {
 
               {/* <Freetime></Freetime> */}
               <Portfolio></Portfolio>
+              <Contact></Contact>
               
           
     
