@@ -2,7 +2,6 @@ import React from 'react';
 
 import Navigation from './components/Navigation';
 import Header from './components/Header';
-import Main from './components/Main';
 import About from './components/About';
 import Freetime from './components/Freetime';
 
@@ -34,7 +33,7 @@ function App() {
         
               <About></About>
               <div className='cards-container'>
-              <Card method={'1. Learn'} text={'codziennie staram sie uczyc czegos nowego'}  icon={<i class="fa-solid fa-people-group"></i>}></Card>
+              <Card method={'1. Learn'} text={'codziennie staram sie uczyc czegos nowego'}  img={img1}></Card>
               <Card method={'2. Teach'} text={'kodowac codziennie i powtarzac'} img={img2} icon={<i class="fa-regular fa-comments"></i>}></Card>
               <Card method={'3. Work'} text={'tworzyc projekty w oparciu o poznane techniki '} img={img3} icon={<i class="fa-regular fa-thumbs-up"></i>}></Card>
 
