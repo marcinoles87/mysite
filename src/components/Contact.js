@@ -7,9 +7,12 @@ import contactImg from './img/minsc-nobg.png'
 function Contact() {
 
   const handleClick = (e) => {
-    const div = document.querySelector('contact-info')
-
+    const div = document.querySelector('.contact-info')
+    console.log(e.currentTarget.className)
+    div.textContent = '783 845 344';
+  
   }
+  
   return (
     <div className='contact-container'>
         <h1>Contact</h1>
@@ -18,7 +21,7 @@ function Contact() {
 
         <div className='contact-link'>
 
-            <i class="fa-regular fa-phone" onClick={handleClick}></i>
+            <i class="fa-solid fa-address-card fa "onClick={handleClick}></i>
             <i class="fa-solid fa-address-card fa-lg " onClick={handleClick}></i>
             <i class="fa-solid fa-address-card fa-lg" onClick={handleClick}></i>
 
