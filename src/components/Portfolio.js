@@ -85,7 +85,6 @@ function Portfolio() {
             </div>
         </div>
 
-        <h2> If you Like this few project please visit my profil on Github and see more... Thanks</h2>
     </div>
   )
 }
