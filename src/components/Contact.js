@@ -30,13 +30,13 @@ function Contact() {
     <div className='contact-container'>
         <h1>Contact</h1>
         <img src={contactImg}></img>
-        <h2> Marcin Oles</h2>
+        
 
         <div className='contact-link'>
 
            
-            <i class="fa-solid fa-address-card fa-lg " onClick={handleClickOne} value='783 845 344'></i>
-            <i class="fa-solid fa-address-card fa-lg " onClick={handleClickTwo}></i>
+        <i class="fa-solid fa-square-phone fa-lg" onClick={handleClickOne} value='783 845 344'></i>
+            <i class="fa-regular fa-envelope fa-lg" onClick={handleClickTwo}></i>
             <i class="fa-solid fa-address-card fa-lg" onClick={handleClickThree} value='marcinoles87@gmail.com'></i>
 
         </div>
