@@ -30,7 +30,10 @@ function Contact() {
     <div className='contact-container'>
         <h1>Contact</h1>
         <img src={contactImg}></img>
-        
+        <h2>Marcin Oleś</h2>
+           <p>Now - Warehouse Manager</p>
+           <p>Future - FrontEnd100%</p>
+           <p>Małopolska Wyższa Szkola </p>
 
         <div className='contact-link'>
 
