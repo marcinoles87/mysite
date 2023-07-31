@@ -29,12 +29,13 @@ function Portfolio() {
             
            
             <div className='portfolio-description' >
+
                 <div>
                     <img src={vip} alt='viptour-site'></img>
                 </div>
                 
-                <div>
-                    <h3>Vip Tour Cracow</h3>3
+                <div className='portfolio-text'>
+                    <h3>Vip Tour Cracow   <span>2022</span></h3>
                     <p>-First "usefull" site for my friend</p>
                     <p>-Use bootstrap templets , HTML , CSS</p>
                     <p>-Nice / Smooth / Simple</p>
