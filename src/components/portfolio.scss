@@ -38,6 +38,8 @@
 
 
             .portfolio-text{
+                display: flex;
+                flex-direction: column;
                 margin: 0 40px;
                 padding: 28px;
 
@@ -64,13 +66,17 @@
             }
 
             a{
+                margin-top: 20px;
+                width: 30%;
                 background-color: violet;
                 color: white;
-                border-radius: 30px;
+                border-radius: 20px;
                 line-height: 1.5;
                 padding: 13px;
                 text-decoration: none;
+
             }
+            
             }
 
             
