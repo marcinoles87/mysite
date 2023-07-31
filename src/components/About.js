@@ -1,6 +1,6 @@
 import React from 'react'
 
-import profilImg from './img/minsc.png'
+import profilImg from './img/profil2.jpg'
 
 import './about.scss'
 import Freetime from './Freetime'

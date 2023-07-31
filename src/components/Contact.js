@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import './contact.scss'
 
-import contactImg from './img/minsc-nobg.png'
+import contactImg from './img/profil.jpg'
 
 function Contact() {
 
