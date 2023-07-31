@@ -1,8 +1,7 @@
 .portfolio-container{
     width: 100vw;
-    background: rgb(63,228,251);
-    background: rgb(0,0,0);
-    opacity: 0;
+    color: black;
+
     // background: linear-gradient(90deg, rgba(0,0,0,1) 31%, rgba(87,209,215,1) 100%);
     display: flex;
     flex-direction: row;
@@ -19,80 +18,20 @@
         font-size: 60px;
         text-align: center;
         color:white;
-     
-  
-  
-
-        
     }
-    
+
     .portfolio-projects{
         display: flex;
         flex-direction: column;
-        text-align: center;
-        
-        
 
         .portfolio-description{
-            width: 40vw;
-            color: white;
-            margin: 20px;
+            display: flex;
+            flex-direction: row;
 
         }
 
-        .portfolio-link{
-            width: 40vw;
-             height: 40vh;
-            // background-color: gray;
-
-            
-
-            .portfolio-item1{
-                width: 40vw;
-                height: 40vh;
-                background-image: url('./img/vip.png');
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: contain;
-               
-            }
-
-            img{
-                width: 35vw;
-                height: 40vh;
-                background-image: url('./img/vip.png');
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: contain;
-                border-radius: 20px;
-            }
-        }
     }
 
 
-    h2{
-        color:white;
-        text-align: center;
-    }
 
-}
-
-.show{
-    animation: 1s ease  slideLeft;
-    opacity: 1;
-}
-
-@keyframes slideLeft {
-
-    0%{
-        transform: translateX(-1000px);
-
-
-    }
-
-    100%{
-        transform: translateX(0);
-
-    }
-    
 }

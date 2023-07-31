@@ -9,7 +9,7 @@ import hangman from './img/hangman.png';
 
 function Portfolio() {
   
-    const [show , setShow] = useState(false)
+    const [show , setShow] = useState(true)
 
 
     const showSection = () => {
@@ -23,24 +23,30 @@ function Portfolio() {
     
   return (
     <div className='portfolio-container'onMouseEnter={showSection}>
-        <h1 className='portfolio-name' id='projects'>Some of my projects</h1>
+        <h1 className='portfolio-name' id='projects'>Portfolio</h1>
 
         <div className='portfolio-projects' onMouseEnter={showSection}>
             
            
             <div className='portfolio-description' >
-                <h1>Vip Tour Cracow</h1>
-                <p>-First "usefull" site for my friend</p>
-                <p>-Use bootstrap templets , HTML , CSS</p>
-                <p>-Nice / Smooth / Simple</p>
+                <div>
+                    <img src={vip} alt='viptour-site'></img>
+                </div>
+                
+                <div>
+                    <h3>Vip Tour Cracow</h3>3
+                    <p>-First "usefull" site for my friend</p>
+                    <p>-Use bootstrap templets , HTML , CSS</p>
+                    <p>-Nice / Smooth / Simple</p>
+                </div>
             </div>
 
            
-            <div className='portfolio-link'>
-                <img src={vip} alt='viptour-site'></img>
-            </div>
+        
+                
+            
         </div>
-
+{/* 
         <div className='portfolio-projects' onMouseEnter={showSection}>
             
             <div className='portfolio-description'>
@@ -83,7 +89,7 @@ function Portfolio() {
             <div className='portfolio-link'>
             <img src={hangman} alt='hangman-game'></img>
             </div>
-        </div>
+        </div> */}
 
     </div>
   )
