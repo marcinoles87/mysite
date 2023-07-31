@@ -12,11 +12,12 @@
 
     .portfolio-name{
         width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 70px;
         padding-top: 40px;
         font-family: 'Anton', cursive;
-        font-size: 60px;
+        font-size: 50px;
         text-align: center;
+        color:#a9a9a9;
         
     }
 
@@ -28,7 +29,7 @@
             display: flex;
             flex-direction: row;
             width: 100vw;
-            justify-content: space-around;
+            justify-content: center;
 
             img{
                 width: 40wv;
@@ -37,7 +38,7 @@
 
 
             .portfolio-text{
-
+                margin: 0 40px;
                 padding: 28px;
 
                 span{
@@ -52,11 +53,23 @@
 
                 h3{
                 font-size: 28px;
+                margin-bottom: 20px;
             }
 
 
             p{
                 font-size: 15px;
+                line-height: 1.5;
+                color:#545252;
+            }
+
+            a{
+                background-color: violet;
+                color: white;
+                border-radius: 30px;
+                line-height: 1.5;
+                padding: 13px;
+                text-decoration: none;
             }
             }
 

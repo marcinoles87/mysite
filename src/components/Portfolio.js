@@ -36,9 +36,10 @@ function Portfolio() {
                 
                 <div className='portfolio-text'>
                     <h3>Vip Tour Cracow   <span>2022</span></h3>
-                    <p>-First "usefull" site for my friend</p>
-                    <p>-Use bootstrap templets , HTML , CSS</p>
-                    <p>-Nice / Smooth / Simple</p>
+                    <p>First "usefull" site for my friend</p>
+                    <p>Use bootstrap templets , HTML , CSS</p>
+                    <p>Nice / Smooth / Simple</p>
+                    <a href='#'>Preview</a>
                 </div>
             </div>
 
