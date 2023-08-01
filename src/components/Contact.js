@@ -27,13 +27,13 @@ function Contact() {
   }
 
   return (
-    <div className='contact-container'>
+    <div className='contact-container' id='contact'>
         <h1>Contact</h1>
         <img src={contactImg}></img>
         <h2>Marcin Oleś</h2>
            <p>Now - Warehouse Manager</p>
-           <p>Future - FrontEnd100%</p>
-           <p>Małopolska Wyższa Szkola </p>
+           <p>In Future - Front end developer</p>
+           
 
         <div className='contact-link'>
 

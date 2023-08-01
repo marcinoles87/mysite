@@ -39,7 +39,7 @@ function Portfolio() {
                     <p>First "usefull" site for my friend</p>
                     <p>Use bootstrap templets , HTML , CSS</p>
                     <p>Nice / Smooth / Simple</p>
-                    <a href='#'>Preview</a>
+                    <a href='https://www.auschwitzsaltmine.com/'>Preview</a>
                 </div>
             </div>
 
@@ -52,11 +52,11 @@ function Portfolio() {
                 </div>
                 
                 <div className='portfolio-text'>
-                    <h3>Vip Tour Cracow  2 <span>2022</span></h3>
+                    <h3>Vip Tour Cracow  2 <span>2023</span></h3>
                     <p>Second site for my friend</p>
                     <p>React , video , HTML , CSS</p>
                     <p>Nice / Smooth / Simple</p>
-                    <a href='#'>Preview</a>
+                    <a href='https://marcinoles87.github.io/website2023'>Preview</a>
                 </div>
             </div>
 
@@ -73,7 +73,7 @@ function Portfolio() {
                     <p>Write city and see weather in biggest city in Poland</p>
                     <p>External data , fetch data</p>
                     <p>Nice , usefull</p>
-                    <a href='#'>Preview</a>
+                    <a href='https://marcinoles87.github.io/weather2023/'>Preview</a>
                 </div>
             </div>
 
@@ -89,7 +89,7 @@ function Portfolio() {
                     <p>Little game for my kids</p>
                     <p>Use React </p>
                     <p>Nice / Smooth / Simple</p>
-                    <a href='#'>Preview</a>
+                    <a href='https://marcinoles87.github.io/hangman2023/'>Preview</a>
                 </div>
             </div>
 
