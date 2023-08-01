@@ -17,6 +17,15 @@ import Contact from './components/Contact';
 
 function App() {
 
+  const handleClick = () => {
+    console.log(document.documentElement.offsetTop)
+    document.documentElement.scrollTo(0 , 0)
+  }
+
+  const handleScroll = () => {
+    
+  }
+
   
   return (
     
@@ -28,7 +37,7 @@ function App() {
             <Navigation></Navigation>
             <Header></Header>
           
-
+          <h1 className='arrow' onClick={handleClick} onScroll={handleScroll}> Up</h1>
         </div>
 
         
