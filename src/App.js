@@ -22,9 +22,7 @@ function App() {
     document.documentElement.scrollTo(0 , 0)
   }
 
-  const handleScroll = () => {
-    
-  }
+
 
   
   return (
@@ -37,8 +35,9 @@ function App() {
             <Navigation></Navigation>
             <Header></Header>
           
-          <h1 className='arrow' onClick={handleClick} onScroll={handleScroll}> Up</h1>
-        </div>
+            <i class="fa-solid fa-circle-up fa-2xl" onClick={handleClick}></i>  
+                  
+            </div>
 
         
               <About></About>
