@@ -32,7 +32,8 @@ function About() {
           niestety moje życiowe plany sie zmieniły . W 2013 roku na świat przyszedł moj syn Marcel .
           Moje priorytety musiałem odłożyć na bok ... Od tamtego czasu aż do 2018 roku niewiele sie zmieniło,
           moim głównym celem była rodzina lecz w 2019 roku na świat przyszedł moj drugi syn Jakub , a w 2020
-          moja wyczekana córka Zuzanna . </p>
+          moja wyczekana córka Zuzanna .Pandemia dała mi do zrozumienia że świat sie zmienia i wtedy też zaczełem z powrotem
+          powolutku wdrażać swoj plan na powrót do nauki ...  </p>
 
       
 
