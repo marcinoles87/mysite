@@ -20,11 +20,7 @@ function Contact() {
     setInfo('marcinoles87@gmail.com')
   }
 
-  const handleClickThree = (e) => {
 
-    console.log(e.target.value)
-    setInfo('cv_download')
-  }
 
   return (
     <div className='contact-container' id='contact'>
@@ -39,8 +35,8 @@ function Contact() {
 
            
         <i class="fa-solid fa-square-phone fa-lg" onClick={handleClickOne} value='783 845 344'></i>
-            <i class="fa-regular fa-envelope fa-lg" onClick={handleClickTwo}></i>
-            <i class="fa-solid fa-address-card fa-lg" onClick={handleClickThree} value='marcinoles87@gmail.com'></i>
+        <i class="fa-regular fa-envelope fa-lg" onClick={handleClickTwo}></i>
+          
 
         </div>
 

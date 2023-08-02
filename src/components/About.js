@@ -57,7 +57,15 @@ function About() {
                 <h1>Experience</h1>
                 <h2>1.5 year</h2>
               </div>
+
+
+            <div className='info-item'>
+                <h1>Language</h1>
+                <h2>English B1/B2</h2>
+              </div>
             </div>
+
+            
 
            
 

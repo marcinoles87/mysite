@@ -23,7 +23,6 @@ function App() {
   }
 
 
-
   
   return (
     
@@ -42,7 +41,7 @@ function App() {
         
               <About></About>
               <div className='cards-container'>
-                
+              
               <Card method={'1. Think'} text={'Przemyślane i mądre działanie '}  img={img1}></Card>
               <Card method={'2. Teach'} text={'Każdy dzień uczyć sie choćby 10 minut daje nam wiecej niż nie robienie niczego'} img={img2} icon={<i class="fa-regular fa-comments"></i>}></Card>
               <Card method={'3. Work'} text={'Przełożenie nauki na praktyke w realnych problemach'} img={img3} icon={<i class="fa-regular fa-thumbs-up"></i>}></Card>
