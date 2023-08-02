@@ -23,7 +23,7 @@ function Portfolio() {
     
   return (
     <div className='portfolio-container'onMouseEnter={showSection}>
-        <h1 className='portfolio-name' id='projects'>Portfolio</h1>
+        <h1 className='portfolio-name' id='projects'>Projects</h1>
 
         <div className='portfolio-projects' onMouseEnter={showSection}>
             
