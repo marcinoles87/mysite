@@ -34,7 +34,7 @@ function Projects() {
           
             <img className='project-githubwork' src={githubwork} alt='github-work'></img>
             <i class="fa-solid fa-circle-down fa-2xl"></i>
-            <a href='https://github.com/marcinoles87'>see me on Github</a>
+            <a href='https://github.com/marcinoles87'>See My work on Github</a>
           </div>
       </div>
         

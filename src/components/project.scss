@@ -57,11 +57,28 @@ $primary-color : rgb(87, 209, 215);
 
             i{
                 margin:20px 30px;
+                animation: animate 1s ease infinite;
             }
 
             a{
+                font-size: 25px;
+                margin-top: 20px;
                 text-decoration: none;
                 color:white;
+            }
+
+           
+            
+            @keyframes animate {
+                0%{
+                    transform: translateY(20px);
+                }
+            
+                100%{
+                    transform: translateX(0px);
+            
+                }
+                
             }
 
         }
@@ -73,3 +90,4 @@ $primary-color : rgb(87, 209, 215);
 .project-skill-person:hover{
     border-bottom:1px solid  $primary-color;
 }
+
