@@ -40,12 +40,35 @@
         overflow: visible;
     }
 
+    .header-container .header-img {
+        
+        left: 10vw;
+        bottom: 0px;
+        filter: grayscale(0.7);
+    }
+
+    .nav-container .nav-links .nav-list {
+        margin: auto;
+        justify-content: center;
+    }
+
+    .header-container .header-info{
+        top:17vw;
+    }
+        
+
     .nav-link a{
         font-size: 14px;
     }
 
     .profil-img{
         width: 100%;
+    }
+
+    .header-container .header-info .header-info-text {
+        font-size: 30px;
+        font-family: "Anton", cursive;
+        letter-spacing: 4px;
     }
     
 }
