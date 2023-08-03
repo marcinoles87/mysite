@@ -32,3 +32,21 @@
     }
 }
 
+
+@media screen and (max-width : 450px) {
+    
+    .app-container{
+        width: 100%;
+        overflow: visible;
+    }
+
+    .nav-link a{
+        font-size: 14px;
+    }
+
+    .profil-img{
+        width: 100%;
+    }
+    
+}
+
