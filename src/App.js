@@ -5,9 +5,9 @@ import Header from './components/Header';
 import About from './components/About';
 import Freetime from './components/Freetime';
 
-import img1 from './components/img/family.jpg'
-import img2 from './components/img/sport.jpg'
-import img3 from './components/img/movie.png'
+import img1 from './components/img/think.jpg'
+import img2 from './components/img/learn.jpg'
+import img3 from './components/img/work.jpg'
 
 import './App.scss';
 import Projects from './components/Projects';
