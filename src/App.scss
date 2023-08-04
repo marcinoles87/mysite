@@ -132,10 +132,31 @@
             width: 100vw;
             height: auto;
 
+            h3{
+                font-size:15px;
+            }
+
             .project-skill-person{
                 flex-direction: column;
             }
+
+            .project-githubwork a{
+                animation: animate2 3s infinite;
+
+            }
+
         }
+    }
+
+    @keyframes animate2 {
+        0%{
+            color:white;
+        }
+
+        100%{
+            color:rgb(6, 185, 255);
+        }
+        
     }
 
 
