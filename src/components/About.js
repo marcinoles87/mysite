@@ -14,7 +14,7 @@ function About() {
     const aboutSec = document.querySelector('.about-container')
     console.log(window) 
     console.log(e.pageY)
-    if(window.innerHeight > 700  && window.innerWidth < 450){
+    if(window.innerHeight > 700 ){
     aboutSec.classList.add('test')
   }
 
