@@ -46,7 +46,7 @@
         
         left: 10vw;
         bottom: 0px;
-        filter: grayscale(0.7);
+        filter: grayscale(1);
     }
 
     .nav-container .nav-links .nav-list {
@@ -56,6 +56,7 @@
 
     .header-container .header-info{
         top:15vw;
+        text-align: center;
 
         h2{
             font-size: 20px;
@@ -69,6 +70,7 @@
 
     .profil-img{
         width: 100%;
+        
     }
 
     .header-container .header-info .header-info-text {
@@ -178,7 +180,14 @@
 
                 .portfolio-text{
                     width: auto;
+
+
+                    a{
+                        width: 20vw;
+                    }
                 }
+
+
             }
         }
     }
