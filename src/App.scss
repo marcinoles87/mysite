@@ -40,6 +40,8 @@
         overflow: visible;
     }
 
+   
+
     .header-container .header-img {
         
         left: 10vw;
@@ -105,12 +107,43 @@
             p{
                 
                     margin: 10px 10px;
-                    padding: 10px 10px;
+                    padding:20px;
                     width: 100%;
             }
         }
+ 
 
     }
+    
+
+
+    .App .project-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+
+        .project-github{
+            width: 100vw;
+            height: 20vh;
+        }
+
+        .project-item{
+            width: 100vw;
+            height: auto;
+
+            .project-skill-person{
+                flex-direction: column;
+            }
+        }
+    }
+
+
+   
+
+
+
+    
     
 }
 
