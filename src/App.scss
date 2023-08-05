@@ -40,12 +40,14 @@
         overflow: visible;
     }
 
-   
+   .header-container{
+    height: 70vh;
+   }
 
     .header-container .header-img {
         
         left: 10vw;
-        bottom: 0px;
+        bottom: 24vh;
         filter: grayscale(1);
     }
 
@@ -59,7 +61,7 @@
         text-align: center;
 
         h2{
-            font-size: 20px;
+            font-size: 37px;
         }
     }
         
