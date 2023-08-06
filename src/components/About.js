@@ -54,7 +54,7 @@ function About() {
               
               <div className='info-item'>
                 <h1>Experience</h1>
-                <h2>1.5 year</h2>
+                <h2>1.5/2 year</h2>
               </div>
 
 

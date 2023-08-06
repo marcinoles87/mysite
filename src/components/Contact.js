@@ -25,7 +25,7 @@ function Contact() {
   return (
     <div className='contact-container' id='contact'>
         <h1>Contact</h1>
-        <img src={contactImg}></img>
+        <img src={contactImg} alt='img-to-contact'></img>
         <h2>Marcin Oleś</h2>
            <p>Now - Warehouse Manager</p>
            <p>In Future - Front end developer</p>
@@ -34,8 +34,8 @@ function Contact() {
         <div className='contact-link'>
 
            
-        <i class="fa-solid fa-square-phone fa-lg" onClick={handleClickOne} value='783 845 344'></i>
-        <i class="fa-regular fa-envelope fa-lg" onClick={handleClickTwo}></i>
+        <i className="fa-solid fa-square-phone fa-lg" onClick={handleClickOne} value='783 845 344'></i>
+        <i className="fa-regular fa-envelope fa-lg" onClick={handleClickTwo}></i>
           
 
         </div>

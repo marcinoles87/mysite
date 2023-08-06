@@ -34,7 +34,7 @@ function App() {
             <Navigation></Navigation>
             <Header></Header>
           
-            <i class="fa-solid fa-circle-up fa-2xl" onClick={handleClick}></i>  
+            <i className="fa-solid fa-circle-up fa-2xl" onClick={handleClick}></i>  
                   
             </div>
 
