@@ -5,7 +5,7 @@ import './header.scss'
 import profil from './img/minsc-nobg.png'
 import logoGh from './img/github.png'
 import logoLn from './img/linkedin.png'
-import logoFb from './img/facebook2.png'
+
 
 
 function Header() {
@@ -23,9 +23,9 @@ function Header() {
         <h2>Hi there , Im Marcin !</h2>
         <p className='header-info-text2'> FUTURE FRONTEND - DEVELOPER</p>
         {/* <button className='header-button'>More Info </button> */}
-        <img src={logoGh} alt='github-logo'></img>
-        <img src={logoLn} alt='linkedin-logo'></img>
-        <img src={logoFb} alt='linkedin-logo'></img>
+        <a href='https://github.com/marcinoles87'><img src={logoGh} alt='github-logo'></img></a>
+        <a href='https://www.linkedin.com/in/marcin-ole%C5%9B-65a797101/'><img src={logoLn} alt='linkedin-logo'></img></a>
+       
       </div>
 
 

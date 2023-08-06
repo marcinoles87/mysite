@@ -3,7 +3,7 @@ import React from 'react';
 import Navigation from './components/Navigation';
 import Header from './components/Header';
 import About from './components/About';
-import Freetime from './components/Freetime';
+
 
 import img1 from './components/img/think.jpg'
 import img2 from './components/img/learn.jpg'

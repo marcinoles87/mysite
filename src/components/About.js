@@ -3,14 +3,13 @@ import React from 'react'
 import profilImg from './img/profil2.jpg'
 
 import './about.scss'
-import Freetime from './Freetime'
 import Card from './Card'
 
 function About() {
 
    
 
-  const handleOnScroll = (e) => {
+  const handleOnEnter = (e) => {
     const aboutSec = document.querySelector('.about-container')
     console.log(window) 
     console.log(e.pageY)
@@ -21,7 +20,7 @@ function About() {
     
   }
   return (
-    <div className='about-container' id='about' onMouseEnter={handleOnScroll}> 
+    <div className='about-container' id='about' onMouseEnter={handleOnEnter}> 
     <h1><span>About</span> me</h1>
       <div className='about-text'>
        
@@ -29,11 +28,11 @@ function About() {
         <p>Czesc , jestem Marcin , poczatkujacy front-end developer . 
           Swoja historie z programowaniem zaczełem już na studiach w 2012 roku .
           W tamtym momencie poznałem troche javy , blendera 3d , javascriptu i frontendu ktory osobiście mnie użekł , lecz 
-          niestety moje życiowe plany sie zmieniły . W 2013 roku na świat przyszedł moj syn Marcel .
-          Moje priorytety musiałem odłożyć na bok ... Od tamtego czasu aż do 2018 roku niewiele sie zmieniło,
-          moim głównym celem była rodzina lecz w 2019 roku na świat przyszedł moj drugi syn Jakub , a w 2020
-          moja wyczekana córka Zuzanna .Pandemia dała mi do zrozumienia że świat sie zmienia i wtedy też zaczełem z powrotem
-          powolutku wdrażać swoj plan na powrót do nauki ...  </p>
+          niestety moje życiowe plany sie zmieniły . W 2013 roku na świat przyszedł moj syn Marcel , pozniej Kuba i na końcu Zuzia.
+          Moje plany dotyczace IT musiałem odłożyć na bok ... :) W 2020 roku zaczełem zastanawiać się nad powrotem do nauki i tak
+          też znalazłem kurs Samuraja Programowania . Poczytałem opinie , przestudiowałem rynek i stwierdziłem że warto sprobować .
+          Za cel obrałem sobie początek 2021 roku i od wtedy aż do teraz , codziennie próbuje coś tworzyć ... Zapraszam do obejrzenia
+          Moich projektów a także odwiedzenia profilu na githubie . Pozdrawiam !  </p>
 
       
 
