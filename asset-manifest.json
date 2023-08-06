@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/marcinoles87/mysite/static/css/main.480c1249.css",
-    "main.js": "/marcinoles87/mysite/static/js/main.7876a92c.js",
-    "static/media/vip2.png": "/marcinoles87/mysite/static/media/vip2.33613b24514af606bc88.png",
-    "static/media/profil2.jpg": "/marcinoles87/mysite/static/media/profil2.b30c04d2b576f8cc0761.jpg",
-    "static/media/vip.png": "/marcinoles87/mysite/static/media/vip.71d13cecf465874a765b.png",
-    "static/media/weather.png": "/marcinoles87/mysite/static/media/weather.ff193a44b048264d3fa2.png",
-    "static/media/profil.jpg": "/marcinoles87/mysite/static/media/profil.76190acdd67d275f568f.jpg",
-    "static/media/minsc-nobg.png": "/marcinoles87/mysite/static/media/minsc-nobg.81f938db475aa0540247.png",
-    "static/media/learn.jpg": "/marcinoles87/mysite/static/media/learn.3c3aae19736bfc6d74bc.jpg",
-    "static/media/code.jpg": "/marcinoles87/mysite/static/media/code.5be3918dc7a7dfc46cd6.jpg",
-    "static/media/think.jpg": "/marcinoles87/mysite/static/media/think.980800d9640e721e49f6.jpg",
-    "static/media/work.jpg": "/marcinoles87/mysite/static/media/work.0bb9c9433583f8870fcc.jpg",
-    "static/media/githubwork.png": "/marcinoles87/mysite/static/media/githubwork.75cb8a222302ea7d565f.png",
-    "static/media/github.png": "/marcinoles87/mysite/static/media/github.97bb17689e2c60f4c0fb.png",
-    "static/media/hangman.png": "/marcinoles87/mysite/static/media/hangman.3af84706e48b809ffc26.png",
-    "static/media/linkedin.png": "/marcinoles87/mysite/static/media/linkedin.728dc57bc0363b6e94b7.png",
-    "index.html": "/marcinoles87/mysite/index.html",
-    "main.480c1249.css.map": "/marcinoles87/mysite/static/css/main.480c1249.css.map",
-    "main.7876a92c.js.map": "/marcinoles87/mysite/static/js/main.7876a92c.js.map"
+    "main.css": "/mysite/static/css/main.41e51876.css",
+    "main.js": "/mysite/static/js/main.c937a74b.js",
+    "static/media/vip2.png": "/mysite/static/media/vip2.33613b24514af606bc88.png",
+    "static/media/profil2.jpg": "/mysite/static/media/profil2.b30c04d2b576f8cc0761.jpg",
+    "static/media/vip.png": "/mysite/static/media/vip.71d13cecf465874a765b.png",
+    "static/media/weather.png": "/mysite/static/media/weather.ff193a44b048264d3fa2.png",
+    "static/media/profil.jpg": "/mysite/static/media/profil.76190acdd67d275f568f.jpg",
+    "static/media/minsc-nobg.png": "/mysite/static/media/minsc-nobg.81f938db475aa0540247.png",
+    "static/media/learn.jpg": "/mysite/static/media/learn.3c3aae19736bfc6d74bc.jpg",
+    "static/media/code.jpg": "/mysite/static/media/code.5be3918dc7a7dfc46cd6.jpg",
+    "static/media/think.jpg": "/mysite/static/media/think.980800d9640e721e49f6.jpg",
+    "static/media/work.jpg": "/mysite/static/media/work.0bb9c9433583f8870fcc.jpg",
+    "static/media/githubwork.png": "/mysite/static/media/githubwork.75cb8a222302ea7d565f.png",
+    "static/media/github.png": "/mysite/static/media/github.97bb17689e2c60f4c0fb.png",
+    "static/media/hangman.png": "/mysite/static/media/hangman.3af84706e48b809ffc26.png",
+    "static/media/linkedin.png": "/mysite/static/media/linkedin.728dc57bc0363b6e94b7.png",
+    "index.html": "/mysite/index.html",
+    "main.41e51876.css.map": "/mysite/static/css/main.41e51876.css.map",
+    "main.c937a74b.js.map": "/mysite/static/js/main.c937a74b.js.map"
   },
   "entrypoints": [
-    "static/css/main.480c1249.css",
-    "static/js/main.7876a92c.js"
+    "static/css/main.41e51876.css",
+    "static/js/main.c937a74b.js"
   ]
 }
