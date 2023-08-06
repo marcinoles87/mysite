@@ -3,6 +3,7 @@ import React from 'react'
 import './header.scss'
 
 import profil from './img/minsc-nobg.png'
+import profil3 from './img/profil3.png'
 import logoGh from './img/github.png'
 import logoLn from './img/linkedin.png'
 
