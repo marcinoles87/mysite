@@ -11,11 +11,12 @@ function About() {
 
   const handleOnEnter = (e) => {
     const aboutSec = document.querySelector('.about-container')
-    console.log(window) 
+    console.log(aboutSec)
+    console.log(window.innerHeight) 
     console.log(e.pageY)
-    if(window.innerHeight > 700 ){
-    aboutSec.classList.add('test')
-  }
+    
+    aboutSec.classList.toggle('test')
+  
 
     
   }
