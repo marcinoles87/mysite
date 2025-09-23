@@ -38,7 +38,7 @@ function Portfolio() {
                     <h3>Invoice Creator  <span>2024</span></h3>
                     <p>Create invoice </p>
                     <p>Use React </p>
-                    <p>Nice / Smooth / Simple</p>
+                    <p>Useful / Company</p>
                     <a href='https://marcinoles87.github.io/invoicecreator/'>Preview</a>
                 </div>
             </div>
@@ -54,7 +54,7 @@ function Portfolio() {
                     <h3>Vip Tour Cracow   <span>2021</span></h3>
                     <p>First "usefull" site for my friend</p>
                     <p>Use bootstrap templets , HTML , CSS</p>
-                    <p>Nice / Smooth / Simple</p>
+                    <p>Travel / Education </p>
                     <a href='https://www.auschwitzsaltmine.com/'>Preview</a>
                 </div>
             </div>
@@ -71,7 +71,7 @@ function Portfolio() {
                     <h3>Strona przedszkola nr 111 w Krakowie <span>2023</span></h3>
                     <p>Education site</p>
                     <p>React , JS , HTML , CSS</p>
-                    <p>Nice / Simple / Education</p>
+                    <p>Nice / Education</p>
                     <a href='https://marcinoles87.github.io/przedszkole2023'>Preview</a>
                 </div>
             </div>
@@ -88,7 +88,7 @@ function Portfolio() {
                     <h3>Weather App   <span>2023</span></h3>
                     <p>Write city and see weather in biggest city in Poland</p>
                     <p>External data , fetch data</p>
-                    <p>Nice , usefull</p>
+                    <p>Nice / Usefull</p>
                     <a href='https://marcinoles87.github.io/weather2023/'>Preview</a>
                 </div>
             </div>
@@ -104,7 +104,7 @@ function Portfolio() {
                     <h3>Hangman game   <span>2023</span></h3>
                     <p>Little game for my kids</p>
                     <p>Use React </p>
-                    <p>Nice / Smooth / Simple</p>
+                    <p>Fun / Game</p>
                     <a href='https://marcinoles87.github.io/hangman2023/'>Preview</a>
                 </div>
             </div>
