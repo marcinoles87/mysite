@@ -3,9 +3,10 @@ import React, { useState } from 'react'
 import './portfolio.scss';
 
 import vip from './img/vip.png';
-import vip2 from './img/vip2.png';
+import przedszkole from './img/przedszkole.png';
 import weather from './img/weather.png';
 import hangman from './img/hangman.png';
+import kreatorFaktur from './img/kreatorFaktur.png'
 
 function Portfolio() {
   
@@ -26,6 +27,21 @@ function Portfolio() {
         <h1 className='portfolio-name' id='projects'>Projects</h1>
 
         <div className='portfolio-projects' onMouseEnter={showSection}>
+
+            <div className='portfolio-description' >
+
+                <div>
+                    <img src={kreatorFaktur} alt='viptour-site'></img>
+                </div>
+                
+                <div className='portfolio-text'>
+                    <h3>Invoice Creator  <span>2024</span></h3>
+                    <p>Create invoice </p>
+                    <p>Use React </p>
+                    <p>Nice / Smooth / Simple</p>
+                    <a href='https://marcinoles87.github.io/invoicecreator/'>Preview</a>
+                </div>
+            </div>
             
            
             <div className='portfolio-description' >
@@ -48,15 +64,15 @@ function Portfolio() {
             <div className='portfolio-description' >
 
                 <div>
-                    <img src={vip2} alt='viptour-site'></img>
+                    <img src={przedszkole} alt='viptour-site'></img>
                 </div>
                 
                 <div className='portfolio-text'>
-                    <h3>Vip Tour Cracow  2 <span>2023</span></h3>
-                    <p>Second site for my friend</p>
-                    <p>React , video , HTML , CSS</p>
-                    <p>Nice / Smooth / Simple</p>
-                    <a href='https://marcinoles87.github.io/website2023'>Preview</a>
+                    <h3>Strona przedszkola nr 111 w Krakowie <span>2023</span></h3>
+                    <p>Education site</p>
+                    <p>React , JS , HTML , CSS</p>
+                    <p>Nice / Simple / Education</p>
+                    <a href='https://marcinoles87.github.io/przedszkole2023'>Preview</a>
                 </div>
             </div>
 
