@@ -7,6 +7,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    opacity: 0;
+    transition: 1s ease;
     
    
 
@@ -17,7 +19,8 @@
         font-family: 'Anton', cursive;
         font-size: 50px;
         text-align: center;
-        color:#a9a9a9;
+        color:#373737;
+        letter-spacing: 8px;
         
     }
 
@@ -93,5 +96,9 @@
     }
 
 
+}
 
+.show{
+    opacity: 1;
+    
 }

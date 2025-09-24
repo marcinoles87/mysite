@@ -28,7 +28,7 @@ function Contact() {
         <img src={contactImg} alt='img-to-contact'></img>
         <h2>Marcin Oleś</h2>
            <p>Now - Warehouse Manager</p>
-           <p>In Future - Front end developer</p>
+           <p>In Future - Frontend developer</p>
            
 
         <div className='contact-link'>
