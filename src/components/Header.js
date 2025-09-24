@@ -20,7 +20,6 @@ function Header() {
         
 
         <h1 className='header-info-text'>READY TO WORK</h1>
-        <h2>Hi there , Im Marcin !</h2>
         <p className='header-info-text2'> FUTURE FRONTEND DEVELOPER</p>
         {/* <button className='header-button'>More Info </button> */}
         <a href='https://github.com/marcinoles87'><img src={logoGh} alt='github-logo'></img></a>
