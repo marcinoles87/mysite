@@ -12,23 +12,7 @@ function Projects() {
       </div>
 
       <div className='project-item'>
-        <div className='project-skill-person'> 
-            <h1>Person skills</h1>
-            <h3>Team Player</h3>
-            <h3>Comunications</h3>
-            <h3>Problem Solving</h3>
-            <h3>Calm</h3>
-            
-            
-        </div>
-
-        <div className='project-skill-person'> 
-            <h1>Tech skills</h1>
-            <h3>HTML</h3>
-            <h3>CSS / SaSS</h3>
-            <h3>JS / React</h3>
-            
-        </div>
+        
 
         <div className='project-githubwork'>
 

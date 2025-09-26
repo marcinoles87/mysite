@@ -9,19 +9,19 @@ function About() {
 
    
 
-  const handleOnEnter = (e) => {
-    const aboutSec = document.querySelector('.about-container')
-    console.log(aboutSec)
-    console.log(window.innerHeight) 
-    console.log(e.pageY)
+  // const handleOnEnter = (e) => {
+  //   const aboutSec = document.querySelector('.about-container')
+  //   console.log(aboutSec)
+  //   console.log(window.innerHeight) 
+  //   console.log(e.pageY)
     
-    aboutSec.classList.toggle('test')
-  
+  //   aboutSec.classList.toggle('test') }
+
 
     
-  }
+  
   return (
-    <div className='about-container' id='about' onMouseEnter={handleOnEnter}> 
+    <div className='about-container' id='about' > 
     <h1><span>About</span> me</h1>
       <div className='about-text'>
        
@@ -70,7 +70,7 @@ function About() {
            
 
       </div>
-     
+ 
     </div>
     
   )

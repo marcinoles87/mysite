@@ -14,6 +14,7 @@ import Projects from './components/Projects';
 import Portfolio from './components/Portfolio';
 import Card from './components/Card';
 import Contact from './components/Contact';
+import Skills from './components/Skills';
 
 function App() {
 
@@ -40,6 +41,7 @@ function App() {
 
         
               <About></About>
+              <Skills></Skills>
               <div className='cards-container'>
               
               <Card method={'1. Think'} text={'Przemyślane i mądre działanie '}  img={img1}></Card>
