@@ -21,7 +21,7 @@ function Skills() {
                     
                 </div>
         
-                <div className='project-skill-person'> 
+                <div className='project-skill-person' onClick={handleShow}> 
                     <h1>Tech skills</h1>
                     <h3>HTML</h3>
                     <h3>CSS / SaSS</h3>
