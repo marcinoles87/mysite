@@ -20,33 +20,10 @@ $primary-color : rgb(87, 209, 215);
         
     }
 
-    .project-item{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 50vw;
-        height: 80vh;
-        background: black;
-        color: white;
+   
         
 
-        .project-skill-person{
-            display: flex;
-            align-items: center;
-            margin: 0 10px;
-            transition: 1s ease;
-
-            h1{
-                margin-right: 10px;
-            }
-
-            h3{
-                margin: 0 5px;
-            } 
-            
-           
-        }
+        
 
         .project-githubwork{
             display: flex;
@@ -85,9 +62,6 @@ $primary-color : rgb(87, 209, 215);
 
        
     }
-}
 
-.project-skill-person:hover{
-    border-bottom:1px solid  $primary-color;
-}
+
 

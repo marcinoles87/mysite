@@ -4,8 +4,8 @@ import '../components/skills.scss'
 function Skills() {
 
     const handleShow = () => {
-        const projectSkill = document.querySelector('.project-items')
-        projectSkill.classList.add('showSkill')
+        const projectSkill = document.querySelector('.project-skill-person')
+        projectSkill.classList.toggle('showSkill')
     }
   return (
        <div class="project-items">
